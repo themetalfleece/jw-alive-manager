@@ -63,14 +63,14 @@ class DinosaurManager extends Component {
     newDino = () => {
         this.setState({
             dinosaurs: this.state.dinosaurs.concat({
-                name: '',
+                name: 'New Dino',
                 locked: false,
                 isInTeam: false,
                 speed: 0,
                 criticalChance: 0,
                 armor: 0,
                 currentHealth: 0,
-                level: 0,
+                level: 1,
                 health: 0,
                 damage: 0,
                 active: true,
@@ -328,6 +328,7 @@ class DinosaurManager extends Component {
             <div className='DinosaurManager'>
 
                 <div className='description'>
+                    Every change you make is stored locally in this browser! Every time you visit this page, it will automatically load your dinos!<br />
                     Take a moment to enable the dinosaurs who already own. To change a dino's stat, press 'unlock' and enter the stats who see on your screen. Then lock it. Now, whenever you change its level, the stats will be automatically calculated (only the health and damage change). <br />
                     You can click on the column names to sort by them. The inactive ones will always be on the bottom.
                 </div>
