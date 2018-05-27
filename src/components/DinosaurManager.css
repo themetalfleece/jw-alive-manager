@@ -1,0 +1,58 @@
+.DinosaurManager {
+    margin: 5px auto;
+}
+
+.description {
+    padding: 10px;
+    text-align: center;
+}
+
+.lock {
+    cursor: pointer;
+    color: green;
+}
+
+.remove {
+    cursor: pointer;
+    color: red;
+}
+
+.button-container {
+    text-align: center;
+}
+
+#newDino {
+    margin-left: 10px;
+}
+
+.nameInputHeader {
+    cursor: pointer;
+}
+
+.numInputHeader {
+    min-width: 100px;
+    max-width: 120px;
+    cursor: pointer;
+}
+
+.numInput {
+    min-width: 100px;
+    max-width: 120px;
+    text-align: center;
+}
+
+#dinosaur-table {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+}
+
+#dinosaur-table tr th,
+#dinosaur-table tr td {
+    text-align: center;
+}
+
+
+#dinosaur-table th {
+    user-select: none;
+    text-align: left;
+}
