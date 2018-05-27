@@ -1,7 +1,10 @@
 # Jurassic World Alive - Dinosaur Manager
 
 Manages your dinosaurs, while offering sorting by any stat
-This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app)..
+
+# [Click here to go to the webpage](https://jw-alive-manager.firebaseapp.com/) 
+
+This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app)
 
 ## Installation guide
 
